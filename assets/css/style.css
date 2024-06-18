@@ -139,10 +139,11 @@ main {
 
 #experiences {
   background-color: white;
-  display: block;
   width: auto;
   padding-left: 30px;
+  padding-right: 20px;
   line-height: 30px;
+  flex: auto;
 }
 
 #experiences h3 {
@@ -150,6 +151,7 @@ main {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
+  padding-left: 5px;
   background-color: #dbc2a4;
   border-left: 6px solid #782221;
 }
