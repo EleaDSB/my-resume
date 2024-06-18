@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../font/Raleway-Regular.woff);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1160px;
+  margin: auto;
+  border-right: 1px solid black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+p,
+a,
+ul {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #782221;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  margin: 30px auto auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px black;
+}
+
+#pic:hover {
+  cursor: zoom-in;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+
+#contact {
+  background-color: #2c1d27;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-inline-end: 40px;
+  padding-inline-start: 40px;
+}
+
+#mail {
+  display: flex;
+  padding-right: 95px;
+}
+
+main {
+  display: flex;
+  padding-inline-end: 0%;
+}
+
+#a-propos {
+  background-color: #782221;
+  color: white;
+  display: block;
+  width: 350px;
+  padding-right: 30px;
+}
+
+#a-propos ul,
+#a-propos p {
+  padding: 15px;
+}
+
+#a-propos h3 {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  background-color: #dbc2a4;
+  color: black;
+  text-indent: 10px;
+}
+
+#text {
+  text-indent: 30px;
+}
+
+#experiences {
+  background-color: white;
+  display: block;
+  width: auto;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+#experiences h3 {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #dbc2a4;
+  border-left: 6px solid #782221;
+}
+
+#experiences article:hover {
+  border-right: 4px solid #782221;
+}
+
+article h4 {
+  padding-left: 10px;
+  width: 100%;
+  padding-left: 0%;
+  line-height: 60px;
+}
+
+#skills li {
+  padding-bottom: 10px;
+  line-height: 10px;
+}
+
+footer {
+  background-color: #782221;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a img {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+#social_media {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  line-height: 40px;
+}
